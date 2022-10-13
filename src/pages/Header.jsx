@@ -8,7 +8,7 @@ import {NavLink} from 'react-router-dom';
 
 const Header = () => {
         let Links = [
-            {name:"Home", link:"/"},
+            {name:"Home", link:"/portfolio"},
             {name:"Profile", link:"/profile"},
             {name:"Experience", link:"/experience"},
         ];

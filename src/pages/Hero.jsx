@@ -43,7 +43,7 @@ const Hero = () => {
         <div className='mt-[64px] h-[85vh] md:h-[90vh] text-slate-700 cursor-default scrollbar-hide'>
 
             <div className='mt-32 md:mt-32 text-4xl font-semibold font-third pl-6 md:pl-32 md:text-5xl' data-AOS="fade-right" data-aos-duration="1500" data-aos-delay="100">
-                <h1>Hello Every <br /> My name is RifqiFam</h1>
+                <h1>Hello Everyone <br /> My name is RifqiFam</h1>
             </div>
 
             <div className='mt-9 pr-[1.25rem] pl-[1.5rem] font-third font-normal text-base md:text-xl md:pl-32'data-AOS="fade-right" data-aos-duration="1500" data-aos-delay="100">
