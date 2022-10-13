@@ -114,7 +114,7 @@ ion-icon  {
   max-width: 85%;
   overflow-wrap: break-word;
   align-items: flex-end;
-  @apply border-[1px] border-slate-500 p-5 bg-white rounded-md shadow-md flex flex-col text-right relative  hover:shadow-xl duration-300
+  @apply border-[1px] border-slate-500 p-5 rounded-md shadow-md flex flex-col text-right relative  hover:shadow-xl duration-300
 }
 
 .timeline-item-content::after{
@@ -123,9 +123,9 @@ ion-icon  {
   position: absolute;
   width: 15px;
   height: 15px;
-  right: -7.5px;
+  right: -8px;
   top: calc(50% - 7.5px);
-  @apply border-r-[1px] border-t-[1px] border-black
+  @apply border-r-[1px] border-t-[1px] border-slate-500 bg-white
 
 }
 
@@ -137,7 +137,7 @@ ion-icon  {
 .timeline-item:nth-child(even) .timeline-item-content::after{
   right: auto;
   left: -7.5px;
-  @apply border-l-[1px] border-b-[1px] border-r-[0px] border-t-[0px] border-black
+  @apply border-l-[1px] border-b-[1px] border-r-[0px] border-t-[0px] border-slate-500
 }
 
 .timeline-item-content .tag{

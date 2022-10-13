@@ -48,7 +48,7 @@ const profile = () => {
       </div>
       
       <div data-AOS="fade-up" data-aos-duration="1500" data-aos-delay="100">
-        <div className='hidden md:flex justify-center h-[15vh] md:mb-5' >
+        <div className='hidden md:flex justify-center h-[15vh] md:mb-5 xl:mb-10' >
           <Cloud/>
         </div>
 

@@ -11,6 +11,7 @@ const Header = () => {
             {name:"Home", link:"/portfolio"},
             {name:"Profile", link:"/profile"},
             {name:"Experience", link:"/experience"},
+            {name:"Contact Me", link:"/contact-Me"},
         ];
         let [open,setOpen]=useState(false);
 
@@ -42,11 +43,6 @@ const Header = () => {
                                 </li>
                             ))
                         }
-                    <button 
-                         className='bg-white text-slate-700 font-secondary py-1 px-5 rounded-lg hover:md:ml-8 border-[1px] border-white hover:border-slate-200 hover:shadow-lg
-                        duration-500 font-bold'>
-                        <a href='contact-Me'>Contact Me</a>
-                    </button>
 
                     </ul>
 
