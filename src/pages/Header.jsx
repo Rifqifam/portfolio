@@ -45,7 +45,7 @@ const Header = () => {
                     <button 
                          className='bg-white text-slate-700 font-secondary py-1 px-5 rounded-lg hover:md:ml-8 border-[1px] border-white hover:border-slate-200 hover:shadow-lg
                         duration-500 font-bold'>
-                        <a href='Contact-Me'>Contact Me</a>
+                        <a href='contact-Me'>Contact Me</a>
                     </button>
 
                     </ul>

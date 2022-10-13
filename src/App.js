@@ -18,9 +18,9 @@ function App() {
       <div className='bg-white w-full scrollbar-hide'>
         <Routes>
           <Route path="/portfolio" element={<Hero />} />
-          <Route path="/Profile" element={<Profile />} />
-          <Route path="/Experience" element={<Experience />} />
-          <Route path="/Contact-Me" element={<Contactme />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/contact-Me" element={<Contactme />} />
 
         </Routes>
 
