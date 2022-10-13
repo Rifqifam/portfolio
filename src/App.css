@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;602;900&display=swap');
+
+.card-zoom {
+    @apply relative flex items-center justify-center m-3 overflow-hidden shadow-xl w-[25rem] h-60 rounded-2xl;
+  }
+
+.card-zoom-image {
+    @apply absolute w-full h-full transition-all duration-500 ease-in-out transform bg-center bg-cover;
+  }
+
+.bodys{
+    overflow:scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+
+
+.paral{
+    
+}
+
+.prof-zoom {
+  @apply relative flex items-center justify-center m-3 overflow-hidden shadow-xl w-[12rem] h-[16rem] rounded-2xl;
+}
+
+.prof-zoom-image {
+  @apply absolute w-full h-full transition-all duration-500 ease-in-out transform bg-center bg-cover;
+}
+
+ion-icon  {
+  color: #1e293b;
+}
+
+@media (max-width:768px) {
+  .socmed_mobile {
+    @apply flex border-solid border-[1px]  border-slate-900 px-4 py-2 mr-5 rounded-md bg-white items-center duration-300 shadow-lg hover:bg-gray-300 ;
+  }
+}
+
+
+@media (min-width:768px){
+    .socmed_desktop {
+    @apply flex border-solid border-[1px] border-l-[0px] hover:border-l-[1px] border-white hover:border-slate-100 py-1 hover:px-4 mr-5 rounded-md bg-white items-center duration-300 hover:shadow-lg;
+  }
+}
+
+
+.tagcloud {
+  @apply bg-white px-5 py-4 rounded-xl border-[1px] border-slate-400 border-solid flex items-center font-secondary text-4xl text-black m-2 hover:cursor-pointer
+}
+
+.tagcloudsql {
+  @apply bg-white h-[7.7rem] px-5 py-4 rounded-xl border-[1px] border-black border-solid flex items-center font-secondary text-4xl text-black m-2 hover:cursor-pointer
+}
+
+.contain{
+  width: 90vw;
+  height : 18vh;
+  overflow: visible;
+  padding : 0;
+  margin : 0;
+  display: flex;
+  justify-content: center;
+}
+
+.movimage{
+  pointer-events: none;
+}
+
+.skillcard{
+  @apply bg-white rounded-xl border-slate-100 border-[1px] border-solid shadow-xl
+}
+
+.skill{
+  @apply h-[23.5rem] font-first text-2xl
+}
+
+/* timeline css start*/
+
+.timeline-container{
+  @apply flex flex-col relative w-[70%];
+  margin: 40px 0;
+}
+
+.timeline-container::after{
+  @apply  absolute w-[4px] h-[100%] bg-slate-600 rounded-lg;
+  content: '';
+  left: calc(50% - 2px);
+
+}
+
+.timeline-item{
+  @apply flex pr-[30px] ;
+  justify-content: flex-end;
+  margin: 10px 0;
+  width: 50%;
+}
+
+.timeline-item:nth-child(even){
+  align-self: flex-end;
+  justify-content: flex-start;
+  padding-right: 0px;
+  padding-left: 30px;
+
+}
+
+.timeline-item-content{
+  max-width: 85%;
+  overflow-wrap: break-word;
+  align-items: flex-end;
+  @apply border-[1px] border-slate-500 p-5 bg-white rounded-md shadow-md flex flex-col text-right relative  hover:shadow-xl duration-300
+}
+
+.timeline-item-content::after{
+  content: '';
+  transform: rotate(45deg);
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: -7.5px;
+  top: calc(50% - 7.5px);
+  @apply border-r-[1px] border-t-[1px] border-black
+
+}
+
+.timeline-item:nth-child(even) .timeline-item-content{
+  text-align: left;
+  align-items: flex-start;
+}
+
+.timeline-item:nth-child(even) .timeline-item-content::after{
+  right: auto;
+  left: -7.5px;
+  @apply border-l-[1px] border-b-[1px] border-r-[0px] border-t-[0px] border-black
+}
+
+.timeline-item-content .tag{
+  letter-spacing: 1px;
+  @apply py-1 px-3 font-first font-bold rounded-md text-black absolute top-[5px] left-[5px] ml-2 mt-2
+}
+
+.timeline-item:nth-child(even) .timeline-item-content .tag{
+  left: auto;
+  right: 5px;
+  @apply ml-0 mt-2 mr-2 ;
+}
+
+.timeline-item-content .time{
+  @apply text-slate-500 py-1 px-3 text-center
+}
+
+.timeline-item-content .circle{
+  border-radius: 50%;
+  top: calc(50% - 10px);
+  right: -41px;
+  z-index: 100;
+  @apply bg-slate-600 w-[20px] h-[20px] absolute border-[4px] border-slate-600
+}
+
+.timeline-item:nth-child(even) .timeline-item-content .circle{
+  right:auto;
+  left: -41px;
+}
+
+@media only screen and (max-width: 767px){
+  .timeline.timeline-item-content,
+  .timeline-item:nth-child(even) .timeline-item-content{
+    padding : 15px 10px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .timeline-item-content .tag {
+    width: calc(100% - 30px);
+    @apply text-center
+  }
+
+  .timeline-item-content .time{
+    margin-top: 30px;
+  }
+
+  .timeline-item-content .time-contain{
+    @apply flex justify-center pr-5;
+  }
+
+  .timeline-item:nth-child(even) .timeline-item-content .time-contain{
+    @apply flex justify-center pr-0;
+  }
+
+  .timeline-item .timeline-item-content .title{
+    @apply text-center flex justify-center align-middle;
+  }
+
+
+}
+
+
+/* timeline css ends*/
