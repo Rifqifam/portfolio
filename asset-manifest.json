@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.124ddc51.css",
+    "main.js": "/portfolio/static/js/main.141b3df5.js",
+    "static/media/wartaeq1.png": "/portfolio/static/media/wartaeq1.57f4339063b08e8d6244.png",
+    "static/media/wartaeq3.png": "/portfolio/static/media/wartaeq3.7290994f7ee4c9e4107a.png",
+    "static/media/wartaeq2.png": "/portfolio/static/media/wartaeq2.ea2a10f61dc91206825b.png",
+    "static/media/me.png": "/portfolio/static/media/me.06c826aaa692016f3983.png",
+    "static/media/figma.png": "/portfolio/static/media/figma.770da8583a709626bb55.png",
+    "static/media/python.png": "/portfolio/static/media/python.af08ecec217622f12877.png",
+    "static/media/java.png": "/portfolio/static/media/java.aed7b6b7009f8755d138.png",
+    "static/media/html 1.png": "/portfolio/static/media/html 1.e61928bcc2f9179cf610.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.d21c2584d8772cf51e1c.png",
+    "static/media/cpp.png": "/portfolio/static/media/cpp.e86e8c65f2250cf746fc.png",
+    "static/media/himakom.png": "/portfolio/static/media/himakom.260b37b25a5cee6ef1cf.png",
+    "index.html": "/portfolio/index.html",
+    "main.124ddc51.css.map": "/portfolio/static/css/main.124ddc51.css.map",
+    "main.141b3df5.js.map": "/portfolio/static/js/main.141b3df5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.124ddc51.css",
+    "static/js/main.141b3df5.js"
+  ]
+}
